@@ -1,0 +1,22 @@
+import os
+import pandas as pd
+
+path = '/PATH/TO/FOLDER'
+# Change the path above to your folder of images that need to be converted to .csv format
+os.chdir(path)
+lists = os.listdir(path)
+labels = []
+file_lst = []
+
+files = os.listdir(path)
+for file in files:
+    path_file = path + "/" + file
+    file_lst.append(path_file)
+    labels.append(file)
+
+dictP_n = {"path": file_lst}   
+
+data  = pd.DataFrame(dictP_n, index = None)
+data.to_csv("/PATH/TO/SAVE.csv", index =None)
+#IF PLANNING TO USE FOR THE FAIRFACE SCRIPT predict.py -
+# ADD img_path AT THE TOP ROW AFTER THE CSV IS CREATED USING THIS SCRIPT!!

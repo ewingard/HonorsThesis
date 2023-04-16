@@ -1,0 +1,9 @@
+model, testSet, genderID, accuracy
+FF, trans, man,53.6
+FF, trans, woman,77.9
+FF, cis, man,92.8
+FF, cis, woman,98.2
+IRNv1, trans, man,47.4
+IRNv1, trans, woman,72.2
+IRNv1, cis, man,69.5
+IRNv1, cis, woman,67.5
