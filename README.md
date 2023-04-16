@@ -6,6 +6,7 @@
     - The original filenames for the FairFace models within predict.py was not updated at the time of download (circa 2022), so there may be a discrepancy from the original source code located within the [FairFace Github Page](https://github.com/dchen236/FairFace).
   - IRNv1 model/code: The predict_age_gender_race method draws directly from the FairFace code. All other code used within this script is original to the Author.
     - model used: VGGface2 pre-trained InceptionResNet v1 model taken from [here](https://github.com/davidsandberg/facenet)
+    - * BE SURE TO DOWNLOAD THE PRE-TRAINED MODEL FROM THE ABOVE LINK TO RUN THE SCRIPT *
   ### The misc_code folder contains misc scripts used to make my life easier.
    - Includes a ReadMe specifically for those scripts, and they were commented to help others read and use them.
  ### RFiles - RScript / files used to analyse my data
@@ -42,4 +43,3 @@ Schroff, F., Kalenichenko, D., & Philbin, J. (2015). Facenet: A unified embeddin
    - VGGFace2 Citation: [Direct Link to Paper](https://arxiv.org/abs/1710.08092)
 
 Cao, Q., Shen, L., Xie, W., Parkhi, O., & Zisserman, A. (2017). VGGFace2: A dataset for recognising faces across pose and age. 
-"# HonorsThesis" 
