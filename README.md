@@ -42,3 +42,4 @@ Schroff, F., Kalenichenko, D., & Philbin, J. (2015). Facenet: A unified embeddin
    - VGGFace2 Citation: [Direct Link to Paper](https://arxiv.org/abs/1710.08092)
 
 Cao, Q., Shen, L., Xie, W., Parkhi, O., & Zisserman, A. (2017). VGGFace2: A dataset for recognising faces across pose and age. 
+"# HonorsThesis" 
